@@ -28,7 +28,7 @@ const updateCustomer = async (req, res) => {
 }
 
 const getCustomerById = (req, res) => {
-
+    res.send("No Customers !");
 }
 
 module.exports = { saveCustomer, getAllCustomers, deleteCustomer, updateCustomer, getCustomerById }
